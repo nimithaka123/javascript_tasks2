@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    margin: 20px;
+}
+.main-container{
+    background-color: #F0F3F4 ;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+.accordin{
+    background-color: #A6ACAF ;
+    border: none; 
+    width: 99%;
+    height: 25px;
+    margin: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+label{
+    margin: 5px;
+    font-size: 15px;
+}
+.active, .accordin:hover {
+    background-color:#707B7C;
+  }
+.description{
+    display: none;
+    text-align: justify;
+    margin: 10px;
+    word-spacing: 0.5px;
+}
